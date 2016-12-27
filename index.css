@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/591a7046408361.5852de0fd734e.png");
+}
+
+
+div {
+    color: white;
+}
+
+.contacts {
+    width: 300px;
+    margin: 50px auto;
+}
+.contacts-list{
+    padding: 0;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 2px dotted yellowgreen;
+   
+}
+.contact-image{
+    border-radius:50%;
+    margin: 5 px;
+}
+.contact-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-field{
+    width: 100%;
+    height: 30px;
+}
